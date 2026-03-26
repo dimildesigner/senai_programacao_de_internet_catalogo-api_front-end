@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f6f8;
+    color: #1f2a37;
+}
+
+.topo {
+    padding: 24px 16px;
+    background: #111827;
+    color: #fff;
+}
+
+.topo h1 {
+    margin: 0 0 6px 0;
+    font-size: 28px;
+}
+
+.topo p {
+    margin: 0;
+    opacity: 0.85;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+    display: grid;
+    gap: 16px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    margin: 0 0 12px 0;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: grid;
+    gap: 6px;
+    font-size: 14px;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #2563eb;
+    color: #fff;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.item {
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 12px;
+    background: #fbfdff;
+}
+
+.item h3 {
+    margin: 0 0 6px 0;
+    font-size: 16px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #e0f2fe;
+    color: #075985;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.msg {
+    margin: 0;
+    font-weight: bold;
+}
+
+.status {
+    margin: 0;
+    opacity: 0.85;
+}
+
+.rodape {
+    padding: 18px 16px;
+    text-align: center;
+    color: #475569;
+}
+
+@media (max-width: 700px) {
+    .lista {
+        grid-template-columns: 1fr;
+    }
+
+    .grid2 {
+        grid-template-columns: 1fr;
+    }
+}
