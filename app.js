@@ -1,4 +1,5 @@
 // *** ATENÇÃO: NÃO ESQUEÇA DE ALTERAR O ENDEREÇO ABAIXO!!!! ****
+
 const API_BASE = "https://catalogo-api-i0k3.onrender.com"
 
 const listaEl = document.getElementById("lista")
